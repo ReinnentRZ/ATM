@@ -43,7 +43,7 @@ def menu():
             if jml >= nasabah['saldo']:
                   print('Penarikan terlalu besar saldo tidak cukup')
             else:
-                  print('Saldo anda sekarang tersisa :', nasabah['saldo'])
+                  print('Saldo anda sekarang tersisa :', nasabah['saldo'])    
       
       elif jwb == 4:
             print('Sedang tahap pengembangan')
@@ -60,4 +60,4 @@ def menu():
             else:
                   print('Terimakasih')
                   break
-menu()
+  menu()  
